@@ -22,6 +22,10 @@ function App() {
           path: "/firstSection",
           element: <FirstSection></FirstSection>,
         },
+        {
+          path: "/firstSection",
+          element: <FirstSection></FirstSection>,
+        },
       ],
     },
   ]);
