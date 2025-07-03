@@ -1,101 +1,84 @@
 import React from "react";
 import "./FirstSection.css";
-
-import businessLogistics from "../../accets/firstSection/Business Logistics.png";
+import firstSectionPhotoOne from "../../accets/firstSection/firstSection_photo_one.jpg";
+import firstSectionPhotoTwo from "../../accets/firstSection/firstSection_photo_two.jpg";
 
 const FirstSection = () => {
   return (
-    <div className="fourth_section_grid_div">
-      <div className="photoOne_div">
-        <img
-          className="fourth_section_photoOne"
-          src={businessLogistics}
-          alt=""
-        />
-      </div>
-      <div className="fourth_section_text_parent_div">
-        <h3>Why choose QuickvanUK?</h3>
-        <h1 className="newsAndEvents">Your local delivery partner</h1>
-        <div className="firstSection_inner_text_div">
-          <p>
-            🚛 Complete Moving & Delivery Solution From household moves to
-            business deliveries, QuickVanUK combines a "Man & Van" service with
-            on-demand logistics—so you don’t need multiple providers.
-          </p>
+    <div className="first_section_parent_div">
+      <p className="first_section_text">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio autem
+        neque exercitationem in vel quibusdam quos, consectetur, quidem laborum
+        provident incidunt voluptatem, quod hic possimus.
+      </p>
 
+      <div className="first_section_grid_div">
+        <img src={firstSectionPhotoOne} alt="" />
+        <div className="first_section_text_div">
+          <p className="first_section_title">BLOG</p>
+          <h4>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo,
+            doloribus. Alias, velit. Laudantium?
+          </h4>
           <p>
-            {" "}
-            📦 Residential & Commercial Moves Whether you're shifting homes,
-            relocating your office, or moving out as a student—we’ve got
-            tailored solutions to match every need.
-          </p>
-          <p>
-            🛒 Store Pickup & B2B Deliveries Order something from IKEA, B&Q, or
-            a wholesaler? We’ll pick it up and deliver it safely to your
-            door—fast.
-          </p>
-          <p>
-            ❄ Specialized Frozen & Grocery Delivery Supporting local grocery
-            businesses with reliable cold-chain transport.
-          </p>
-          <p>
-            📱 Easy Booking via Website Our platform is designed for instant
-            quotes, live tracking, and cashless booking—a modern experience.
-          </p>
-          <p>
-            💰 Flexible & Transparent Pricing Choose from hourly, fixed, or
-            distance-based rates. No hidden fees, just honest value.
-          </p>
-          <p>
-            ⚡ Same-Day & Express Delivery Options Need it done urgently? Opt
-            for our premium same-day or express service add-ons.
-          </p>
-          <p>
-            🧰 Helpful Add-On Services Packing, furniture assembly, disassembly,
-            and even waste removal available—saving you stress and time.
-          </p>
-          <p>
-            📍 Serving Luton, London & Beyond From local trips to long-distance
-            hauls, we cover wide areas with punctual and professional service.
-          </p>
-          <p>
-            🌐 Perfect for Individuals & Businesses Alike Trusted by families,
-            students, e-commerce sellers, corporate offices, and retailers.
-          </p>
-          <p>
-            🧑‍💼 Professional, Friendly Staff Trained movers and drivers who treat
-            your belongings with the care they deserve.
-          </p>
-          <p>
-            🤝 Trustworthy & Reliable Our brand is built on punctuality,
-            professionalism, and peace of mind for you.
-          </p>
-          <p>
-            📣 "Making Every Move Hassle-Free" We truly live our slogan—with
-            tech, people, and service designed to make moving stress-free.
+            The work of government is challenging in high- and low-income
+            countries alike. Today, new problems compound to make the work of
+            government even harder: Governments must tackle poverty and address
+            climate change while many are in the midst of debt and fiscal crises
+            that were compounded by Covid.
           </p>
         </div>
-        {/* <div className="fourth_section_flex_div">
-          <img className="fourth_section_flex_photo" src={photoTwo} alt="" />
-          <div>
-            <h4>View & Pick</h4>
-            <p>Simply pick your future house from our product catalogue.</p>
-          </div>
+      </div>
+      <div className="first_section_grid_div">
+        <div className="first_section_text_div">
+          <p className="first_section_title">BLOG</p>
+          <h4>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo,
+            doloribus. Alias, velit. Laudantium?
+          </h4>
+          <p>
+            The work of government is challenging in high- and low-income
+            countries alike. Today, new problems compound to make the work of
+            government even harder: Governments must tackle poverty and address
+            climate change while many are in the midst of debt and fiscal crises
+            that were compounded by Covid.
+          </p>
         </div>
-        <div className="fourth_section_flex_div">
-          <img className="fourth_section_flex_photo" src={photoThree} alt="" />
-          <div>
-            <h4>View & Pick</h4>
-            <p>Simply pick your future house from our product catalogue.</p>
-          </div>
+        <img src={firstSectionPhotoTwo} alt="" />
+      </div>
+      <div className="first_section_grid_div">
+        <img src={firstSectionPhotoOne} alt="" />
+        <div className="first_section_text_div">
+          <p className="first_section_title">BLOG</p>
+          <h4>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo,
+            doloribus. Alias, velit. Laudantium?
+          </h4>
+          <p>
+            The work of government is challenging in high- and low-income
+            countries alike. Today, new problems compound to make the work of
+            government even harder: Governments must tackle poverty and address
+            climate change while many are in the midst of debt and fiscal crises
+            that were compounded by Covid.
+          </p>
         </div>
-        <div className="fourth_section_flex_div">
-          <img className="fourth_section_flex_photo" src={photoFour} alt="" />
-          <div>
-            <h4>View & Pick</h4>
-            <p>Simply pick your future house from our product catalogue.</p>
-          </div>
-        </div> */}
+      </div>
+      <div className="first_section_grid_div">
+        <div className="first_section_text_div">
+          <p className="first_section_title">BLOG</p>
+          <h4>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo,
+            doloribus. Alias, velit. Laudantium?
+          </h4>
+          <p>
+            The work of government is challenging in high- and low-income
+            countries alike. Today, new problems compound to make the work of
+            government even harder: Governments must tackle poverty and address
+            climate change while many are in the midst of debt and fiscal crises
+            that were compounded by Covid.
+          </p>
+        </div>
+        <img src={firstSectionPhotoTwo} alt="" />
       </div>
     </div>
   );
