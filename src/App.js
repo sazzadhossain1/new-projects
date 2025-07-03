@@ -1,10 +1,8 @@
-import logo from "./logo.svg";
-import "./App.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import "./App.css";
 import Main from "./LayOut/Main";
 import Home from "./components/Home/Home";
+import FirstSection from "./components/FirstSection/FirstSection";
 
 function App() {
   const router = createBrowserRouter([
@@ -19,6 +17,10 @@ function App() {
         {
           path: "/home",
           element: <Home></Home>,
+        },
+        {
+          path: "/firstSection",
+          element: <FirstSection></FirstSection>,
         },
       ],
     },
