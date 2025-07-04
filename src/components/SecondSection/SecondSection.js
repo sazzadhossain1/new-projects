@@ -15,30 +15,11 @@ import FoodAndGroceryDelivery from "../../accets/secondSectionPhoto/Food & groce
 
 const SecondSection = () => {
   return (
-    <div>
-      <h1>QuickvanUK for every occasion</h1>
-      <div className="second_section_grid_div">
-        <div>
-          <img src={SmallItems} alt="" />
-          <h3>Small Items</h3>
-        </div>
-        <div>
-          <img src={LargeAndBulkyGoods} alt="" />
-          <h3>Large and bulky goods</h3>
-        </div>
-        <div>
-          <img src={ValuablesAndDelicateGoods} alt="" />
-          <h3>Valuables and delicate goods</h3>
-        </div>
-        <div>
-          <img src={MovingService} alt="" />
-          <h3>Moving service</h3>
-        </div>
-        <div>
-          <img src={FoodAndGroceryDelivery} alt="" />
-          <h3>Food & grocery delivery</h3>
-        </div>
-      </div>
+    <div className="second_section_parent_div">
+      <p>
+        J-PAL affiliated researchers have 2,300+ ongoing and completed
+        randomized evaluations in 98 countries
+      </p>
     </div>
   );
 };
