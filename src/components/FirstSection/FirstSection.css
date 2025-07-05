@@ -2,7 +2,7 @@
 }
 .first_section_text {
   font-size: 22px;
-  width: 70%;
+  width: 60%;
   margin: auto;
   margin-top: 50px;
   margin-bottom: 30px;
@@ -11,10 +11,11 @@
 .first_section_grid_div {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 50px;
+  gap: 20px;
   width: 55%;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 50px;
+  align-items: center;
 }
 .first_section_grid_div img {
   width: 100%;
