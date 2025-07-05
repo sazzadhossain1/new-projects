@@ -1,130 +1,201 @@
-import React from "react";
+import React, { useState } from "react";
 import "./NavigationBar.css";
+import logo from "../../accets/logo/Screenshot_35.png";
 import { Link } from "react-router-dom";
-// import logo from "../../accets/Logo/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
-import logo from "../../accets/logo/Logo PNG.png";
+import {
+  faBars,
+  faTimes,
+  faAngleDown,
+} from "@fortawesome/free-solid-svg-icons";
 
-const NavigationBar = ({ scrollToFooter }) => {
+const NavigationBar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
-    <div>
-      <header>
-        <Link to="/home">
-          <img className="logo" src={logo} alt="" />
-          {/* <h1 className="quickVanuk">Quick Vanuk</h1> */}
-        </Link>
-        <input type="checkbox" id="menu-bar" />
-        <label htmlFor="menu-bar">
-          <FontAwesomeIcon icon={faBars} />
-        </label>
-
-        <nav className="navbar">
-          <ul>
-            <div className="li_div">
-              <li className="photo_gallery">
-                <Link to="/home">Home</Link>
-              </li>
-              {/* <li>
-                <Link>
-                  Services <FontAwesomeIcon icon={faAngleDown} />
-                </Link>
-                <ul>
-                  <li>
-                    <Link to="/brainTumourOperation">
-                      Brain Tumour Operation
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/endoscopicBrainSurgery">
-                      Endoscopic Brain Surgery (Pituitory, Etv And Others)
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/skullBaseSurgery">Skull Base Surgery</Link>
-                  </li>
-                  <li>
-                    <Link to="/vascularNeuroSurgery">
-                      Vascular Neuro Surgery
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/pediatricNeuroSurgery">
-                      Pediatric Neuro Surgery
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/spinalSurgery">Spinal Surgery</Link>
-                  </li>
-                  <li>
-                    <Link to="/traumaticBrainAndSpineSurgery">
-                      Traumatic Brain & Spine Surgery
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/epilepsySurgery">Epilepsy Surgery</Link>
-                  </li>
-                  <li>
-                    <Link to="/spinalTumour">Spinal Tumour</Link>
-                  </li>
-                  <li>
-                    <Link to="/microdiscectomy">Microdiscectomy</Link>
-                  </li>
-                  <li>
-                    <Link to="/strokeSurgery">
-                      Stroke Surgery (Urgent Surgery Of Stroke Patients)
-                    </Link>
-                  </li>
-                </ul>
-              </li> */}
-              <li>
-                <Link to="/service">Service</Link>
-              </li>
-              <li>
-                <Link to="/pricing">Pricing</Link>
-              </li>
-              {/* <li>
-                <Link>
-                  Gallery <FontAwesomeIcon icon={faAngleDown} />
-                </Link>
-                <ul>
-                  <li>
-                    <Link to="/photoGallery">Photo Gallery</Link>
-                  </li>
-                  <li>
-                    <Link to="/videoGallery">Patient Feedback</Link>
-                  </li>
-                </ul>
-              </li> */}
-              <li className="photo_gallery">
-                <Link to="/bookAVan"> Book a Van</Link>
-              </li>
-              <li>
-                <Link to="/aboutUs">About Us</Link>
-              </li>
-              <li>
-                <Link to="/becomeADriver"> Become a Driver</Link>
-              </li>
-              <li>
-                <Link to="/faqs"> FAQs</Link>
-              </li>
-              <li>
-                <Link to="#" onClick={scrollToFooter}>
-                  {" "}
-                  Contact Us
-                </Link>
-              </li>
-            </div>
+    <header className="nav-container">
+      <div className="nav-content">
+        <div className="nav-left">
+          <Link to="/home">
+            <img src={logo} alt="Logo" className="logo" />
+          </Link>
+          <ul className="nav-left-menu">
             <li>
-              <div className="nav_fle_div">
-                {/* <FontAwesomeIcon className="faEnvelope" icon={faEnvelope} /> */}
-                {/* <Link>kazidmc@gmail.com</Link> */}
-              </div>
+              <Link to="#">
+                About Us <FontAwesomeIcon icon={faAngleDown} />
+              </Link>
+              <ul className="dropdown">
+                <li>
+                  <Link to="#">Our Story</Link>
+                </li>
+                <li>
+                  <Link to="#">Vision & Mission</Link>
+                </li>
+                <li>
+                  <Link to="#">Our Team</Link>
+                </li>
+                <li>
+                  <Link to="#">Partners & Affiliations</Link>
+                </li>
+                <li>
+                  <Link to="#">Careers</Link>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <Link to="#">
+                What We Do <FontAwesomeIcon icon={faAngleDown} />
+              </Link>
+              <ul className="dropdown">
+                <li>
+                  <Link to="#">Research Services</Link>
+                </li>
+                <li>
+                  <Link to="#">Training & Capacity Building</Link>
+                </li>
+                <li>
+                  <Link to="#">Consultancy & Advisory</Link>
+                </li>
+                <li>
+                  <Link to="#">IT & BPO Solutions</Link>
+                </li>
+                <li>
+                  <Link to="#">Market Studies</Link>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <Link to="#">
+                Projects <FontAwesomeIcon icon={faAngleDown} />
+              </Link>
+              <ul className="dropdown">
+                <li>
+                  <Link to="#">Ongoing</Link>
+                </li>
+                <li>
+                  <Link to="#">Completed</Link>
+                </li>
+                <li>
+                  <Link to="#">Impact Highlights</Link>
+                </li>
+                <li>
+                  <Link to="#">Collaborations</Link>
+                </li>
+              </ul>
             </li>
           </ul>
-        </nav>
-      </header>
-    </div>
+        </div>
+
+        <div className="hamburger" onClick={toggleMobileMenu}>
+          <FontAwesomeIcon icon={menuOpen ? faTimes : faBars} />
+        </div>
+
+        <ul className={`nav-right-menu ${menuOpen ? "open" : ""}`}>
+          <li>
+            <Link to="#">
+              Training <FontAwesomeIcon icon={faAngleDown} />
+            </Link>
+            <ul className="dropdown">
+              <li>
+                <Link to="#">Upcoming Trainings</Link>
+              </li>
+              <li>
+                <Link to="#">Methodology</Link>
+              </li>
+              <li>
+                <Link to="#">Online Platform</Link>
+              </li>
+              <li>
+                <Link to="#">IGA Training</Link>
+              </li>
+              <li>
+                <Link to="#">Certificates</Link>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <Link to="#">
+              Publications <FontAwesomeIcon icon={faAngleDown} />
+            </Link>
+            <ul className="dropdown">
+              <li>
+                <Link to="#">Reports</Link>
+              </li>
+              <li>
+                <Link to="#">Policy Briefs</Link>
+              </li>
+              <li>
+                <Link to="#">Blogs</Link>
+              </li>
+              <li>
+                <Link to="#">Datasets</Link>
+              </li>
+              <li>
+                <Link to="#">Annual Reports</Link>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <Link to="#">
+              Get Involved <FontAwesomeIcon icon={faAngleDown} />
+            </Link>
+            <ul className="dropdown">
+              <li>
+                <Link to="#">Partner</Link>
+              </li>
+              <li>
+                <Link to="#">Join Training</Link>
+              </li>
+              <li>
+                <Link to="#">Consultant</Link>
+              </li>
+              <li>
+                <Link to="#">Volunteer</Link>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <Link to="#">
+              News & Events <FontAwesomeIcon icon={faAngleDown} />
+            </Link>
+            <ul className="dropdown">
+              <li>
+                <Link to="#">Latest News</Link>
+              </li>
+              <li>
+                <Link to="#">Events</Link>
+              </li>
+              <li>
+                <Link to="#">Media Coverage</Link>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <Link to="#">
+              Contact <FontAwesomeIcon icon={faAngleDown} />
+            </Link>
+            <ul className="dropdown">
+              <li>
+                <Link to="#">Office Info</Link>
+              </li>
+              <li>
+                <Link to="#">Inquiries</Link>
+              </li>
+              <li>
+                <Link to="#">Work With Us</Link>
+              </li>
+              <li>
+                <Link to="#">Request Proposal</Link>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </header>
   );
 };
 

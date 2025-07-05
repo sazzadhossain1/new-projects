@@ -1,4 +1,6 @@
+.banner_parent_div {
+}
 .bannerPhoto {
   width: 100%;
-  margin-top: -30px;
+  top: 0;
 }

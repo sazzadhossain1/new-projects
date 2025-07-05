@@ -73,3 +73,32 @@
 .footer_last_logo {
   width: 10%;
 }
+.footer_flex_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 65%;
+  margin: auto;
+  margin-top: 20px;
+}
+.footer_icon_div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 25px;
+}
+.faYoutube {
+  color: red;
+}
+.faXTwitter {
+  color: white;
+}
+.faBluesky {
+  color: blue;
+}
+.faFacebook {
+  color: blue;
+}
+.faLinkedin {
+  color: blue;
+}
