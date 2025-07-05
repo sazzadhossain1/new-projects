@@ -12,3 +12,25 @@
   line-height: 70px;
   font-style: italic;
 }
+@media screen and (max-width: 1120px) {
+  .second_section_parent_div p {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 649px) {
+  .second_section_parent_div p {
+    line-height: 40px;
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 544px) {
+  .second_section_parent_div p {
+    line-height: 35px;
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 464px) {
+  .second_section_parent_div p {
+    font-size: 20px;
+  }
+}
