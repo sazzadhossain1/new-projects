@@ -23,10 +23,7 @@
 .footer_grid_div a {
   color: white;
 }
-/* .footer_last_cart {
-  border-left: 1px solid white;
-  padding-left: 20px;
-} */
+
 .footer_last_cart {
   position: relative;
   padding-left: 20px; /* space from border */
@@ -101,4 +98,53 @@
 }
 .faLinkedin {
   color: blue;
+}
+
+@media screen and (max-width: 1124px) {
+  .footer_parent_div {
+    width: 85%;
+  }
+  .footer_blank_div {
+    width: 85%;
+  }
+  .footer_flex_div {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .footer_parent_div {
+    width: 100%;
+  }
+  .footer_blank_div {
+    width: 100%;
+  }
+  .footer_flex_div {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .footer_last_logo {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .footer_main_div {
+    padding: 15px;
+  }
+  .footer_grid_div {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+  }
+  .footer_last_cart {
+    margin-left: -20px;
+  }
+  .footer_last_cart::before {
+    width: 0px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .footer_flex_div {
+    flex-direction: column;
+    align-items: start;
+  }
 }
