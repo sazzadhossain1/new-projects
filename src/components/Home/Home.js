@@ -13,7 +13,7 @@ const Home = () => {
     <div className="home_parent_div">
       <Banner></Banner>
       <FirstSection></FirstSection>
-      <SecondSection></SecondSection>
+      {/* <SecondSection></SecondSection> */}
       {/* <ThirdSection></ThirdSection>
 
       <FifthSection></FifthSection>

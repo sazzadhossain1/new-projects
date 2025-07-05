@@ -38,3 +38,36 @@
   color: rgb(100, 100, 100);
   line-height: 26px;
 }
+
+@media screen and (max-width: 1536px) {
+  .first_section_text {
+    width: 65%;
+  }
+  .first_section_grid_div {
+    width: 65%;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .first_section_text {
+    width: 75%;
+  }
+  .first_section_grid_div {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .first_section_text {
+    width: 95%;
+  }
+  .first_section_grid_div {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .first_section_text {
+    width: 95%;
+  }
+  .first_section_grid_div {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
