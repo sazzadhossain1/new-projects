@@ -30,19 +30,21 @@ const NavigationBar = () => {
               </Link>
               <ul className="dropdown">
                 <li>
-                  <Link to="#">Our Story</Link>
+                  <Link to="/ourStory">Our Story</Link>
                 </li>
                 <li>
-                  <Link to="#">Vision & Mission</Link>
+                  <Link to="/VisionAndMission">Vision & Mission</Link>
                 </li>
                 <li>
-                  <Link to="#">Our Team</Link>
+                  <Link to="/ourTeam">Our Team</Link>
                 </li>
                 <li>
-                  <Link to="#">Partners & Affiliations</Link>
+                  <Link to="/partnersAndAffiliations">
+                    Partners & Affiliations
+                  </Link>
                 </li>
                 <li>
-                  <Link to="#">Careers</Link>
+                  <Link to="/careers">Careers</Link>
                 </li>
               </ul>
             </li>
