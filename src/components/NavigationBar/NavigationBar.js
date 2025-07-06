@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./NavigationBar.css";
-import logo from "../../accets/logo/Screenshot_35.png";
+import logo from "../../accets/logo/Screenshot_38-removebg-preview (1).png";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -54,19 +54,23 @@ const NavigationBar = () => {
               </Link>
               <ul className="dropdown">
                 <li>
-                  <Link to="#">Research Services</Link>
+                  <Link to="/researchServices">Research Services</Link>
                 </li>
                 <li>
-                  <Link to="#">Training & Capacity Building</Link>
+                  <Link to="/trainingAndCapacityBuilding">
+                    Training & Capacity Building
+                  </Link>
                 </li>
                 <li>
-                  <Link to="#">Consultancy & Advisory</Link>
+                  <Link to="/consultancyAndAdvisory">
+                    Consultancy & Advisory
+                  </Link>
                 </li>
                 <li>
-                  <Link to="#">IT & BPO Solutions</Link>
+                  <Link to="/iTAndBPOSolutions">IT & BPO Solutions</Link>
                 </li>
                 <li>
-                  <Link to="#">Market Studies</Link>
+                  <Link to="/marketAndImpactStudies">Market Studies</Link>
                 </li>
               </ul>
             </li>
@@ -76,16 +80,21 @@ const NavigationBar = () => {
               </Link>
               <ul className="dropdown">
                 <li>
-                  <Link to="#">Ongoing</Link>
+                  <Link to="/ongoingProjects">Ongoing Projects</Link>
                 </li>
                 <li>
-                  <Link to="#">Completed</Link>
+                  <Link to="/completedProjects">Completed Projects</Link>
                 </li>
                 <li>
-                  <Link to="#">Impact Highlights</Link>
+                  <Link to="/impactHighlights">Impact Highlights</Link>
                 </li>
                 <li>
-                  <Link to="#">Collaborations</Link>
+                  <Link
+                    to="/collaborations
+"
+                  >
+                    Collaborations
+                  </Link>
                 </li>
               </ul>
             </li>
@@ -99,45 +108,48 @@ const NavigationBar = () => {
         <ul className={`nav-right-menu ${menuOpen ? "open" : ""}`}>
           <li>
             <Link to="#">
-              Training <FontAwesomeIcon icon={faAngleDown} />
+              Training & Capacity Building{" "}
+              <FontAwesomeIcon icon={faAngleDown} />
             </Link>
             <ul className="dropdown">
               <li>
-                <Link to="#">Upcoming Trainings</Link>
+                <Link to="/UpcomingTrainings">Upcoming Trainings</Link>
               </li>
               <li>
-                <Link to="#">Methodology</Link>
+                <Link to="/methodology">Research Methodology Courses</Link>
               </li>
               <li>
-                <Link to="#">Online Platform</Link>
+                <Link to="/onlineLearning">Online Learning Platform</Link>
               </li>
               <li>
-                <Link to="#">IGA Training</Link>
+                <Link to="/incomeGenerating">
+                  Income Generating Activities (IGA) Training
+                </Link>
               </li>
               <li>
-                <Link to="#">Certificates</Link>
+                <Link to="/certificate">Certificate Programs</Link>
               </li>
             </ul>
           </li>
           <li>
             <Link to="#">
-              Publications <FontAwesomeIcon icon={faAngleDown} />
+              Insights & Publications <FontAwesomeIcon icon={faAngleDown} />
             </Link>
             <ul className="dropdown">
               <li>
-                <Link to="#">Reports</Link>
+                <Link to="/researchReports">Research Reports</Link>
               </li>
               <li>
-                <Link to="#">Policy Briefs</Link>
+                <Link to="/PolicyBriefs">Policy Briefs</Link>
               </li>
               <li>
-                <Link to="#">Blogs</Link>
+                <Link to="/blogsAndThought">Blogs & Thought Pieces</Link>
               </li>
               <li>
-                <Link to="#">Datasets</Link>
+                <Link to="/toolsAndDatasets">Tools & Datasets</Link>
               </li>
               <li>
-                <Link to="#">Annual Reports</Link>
+                <Link to="/annualReports">Annual Reports</Link>
               </li>
             </ul>
           </li>
@@ -147,16 +159,16 @@ const NavigationBar = () => {
             </Link>
             <ul className="dropdown">
               <li>
-                <Link to="#">Partner</Link>
+                <Link to="#">Partner with Us</Link>
               </li>
               <li>
-                <Link to="#">Join Training</Link>
+                <Link to="#">Join Our Training</Link>
               </li>
               <li>
-                <Link to="#">Consultant</Link>
+                <Link to="#">Become a Consultant</Link>
               </li>
               <li>
-                <Link to="#">Volunteer</Link>
+                <Link to="#">Volunteer Opportunities</Link>
               </li>
             </ul>
           </li>
@@ -169,7 +181,7 @@ const NavigationBar = () => {
                 <Link to="#">Latest News</Link>
               </li>
               <li>
-                <Link to="#">Events</Link>
+                <Link to="#">Events & Webinars</Link>
               </li>
               <li>
                 <Link to="#">Media Coverage</Link>
@@ -185,13 +197,13 @@ const NavigationBar = () => {
                 <Link to="#">Office Info</Link>
               </li>
               <li>
-                <Link to="#">Inquiries</Link>
+                <Link to="#">General Inquiries</Link>
               </li>
               <li>
                 <Link to="#">Work With Us</Link>
               </li>
               <li>
-                <Link to="#">Request Proposal</Link>
+                <Link to="#">Request a Proposal</Link>
               </li>
             </ul>
           </li>

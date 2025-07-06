@@ -33,7 +33,7 @@ body {
 }
 
 .logo {
-  width: 160px;
+  width: 140px;
   height: auto;
   margin-bottom: 8px;
 }
@@ -78,7 +78,7 @@ body {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
   display: none;
   flex-direction: column;
-  min-width: 220px;
+  min-width: 350px;
   z-index: 10;
   border-radius: 6px;
   overflow: hidden;

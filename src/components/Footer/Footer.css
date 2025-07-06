@@ -85,19 +85,19 @@
   font-size: 25px;
 }
 .faYoutube {
-  color: red;
+  color: white;
 }
 .faXTwitter {
   color: white;
 }
 .faBluesky {
-  color: blue;
+  color: white;
 }
 .faFacebook {
-  color: blue;
+  color: white;
 }
 .faLinkedin {
-  color: blue;
+  color: white;
 }
 
 @media screen and (max-width: 1124px) {
