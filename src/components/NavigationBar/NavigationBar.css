@@ -17,7 +17,7 @@ body {
 }
 
 .nav-content {
-  max-width: 1300px;
+  max-width: 85%;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -29,13 +29,17 @@ body {
 .nav-left {
   display: flex;
   flex-direction: column;
-  width: 30%;
+
+  /* background-color: red; */
+
+  width: 40%;
 }
 
 .logo {
   width: 140px;
   height: auto;
   margin-bottom: 8px;
+  margin-left: -60px;
 }
 
 .nav-left-menu,
@@ -108,8 +112,17 @@ li:hover > .dropdown {
   top: 18px;
   right: 20px;
 }
-
-@media (max-width: 992px) {
+@media screen and (max-width: 1536px) {
+  .nav-content {
+    max-width: 95%;
+  }
+}
+@media screen and (max-width: 1410px) {
+  .nav-content {
+    max-width: 100%;
+  }
+}
+@media (max-width: 1340px) {
   .nav-content {
     flex-direction: column;
     align-items: flex-start;

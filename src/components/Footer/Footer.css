@@ -1,5 +1,6 @@
 .footer_main_div {
-  background-color: #242424;
+  /* background-color: #242424; */
+  background-color: rgb(99, 99, 99);
   padding: 50px;
 }
 .footer_parent_div {

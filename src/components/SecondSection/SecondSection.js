@@ -5,8 +5,8 @@ const SecondSection = () => {
   return (
     <div className="second_section_parent_div">
       <p>
-        J-PAL affiliated researchers have 2,300+ ongoing and completed
-        randomized evaluations in 98 countries
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque saepe
+        facere vel ad dicta?
       </p>
     </div>
   );

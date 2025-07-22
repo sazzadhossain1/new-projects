@@ -27,6 +27,17 @@ import PolicyBriefs from "./components/PolicyBriefs/PolicyBriefs";
 import BlogsAndThought from "./components/BlogsAndThought/BlogsAndThought";
 import ToolsAndDatasets from "./components/ToolsAndDatasets/ToolsAndDatasets";
 import AnnualReports from "./components/AnnualReports/AnnualReports";
+import PartnerwithUs from "./components/PartnerwithUs/PartnerwithUs";
+import JoinOurTraining from "./components/JoinOurTraining/JoinOurTraining";
+import BecomeAConsultant from "./components/BecomeAConsultant/BecomeAConsultant";
+import VolunteerOpportunities from "./components/VolunteerOpportunities/VolunteerOpportunities";
+import LatestNews from "./components/LatestNews/LatestNews";
+import EventsAndWebinars from "./components/EventsAndWebinars/EventsAndWebinars";
+import MediaCoverage from "./components/MediaCoverage/MediaCoverage";
+import OfficeInfo from "./components/OfficeInfo/OfficeInfo";
+import GeneralInquiries from "./components/GeneralInquiries/GeneralInquiries";
+import WorkWithUs from "./components/WorkWithUs/WorkWithUs";
+import RequestAProposal from "./components/RequestAProposal/RequestAProposal";
 
 function App() {
   const router = createBrowserRouter([
@@ -145,6 +156,50 @@ function App() {
         {
           path: "/annualReports",
           element: <AnnualReports></AnnualReports>,
+        },
+        {
+          path: "/partnerwithUs",
+          element: <PartnerwithUs></PartnerwithUs>,
+        },
+        {
+          path: "/joinOurTraining",
+          element: <JoinOurTraining></JoinOurTraining>,
+        },
+        {
+          path: "/becomeAConsultant",
+          element: <BecomeAConsultant></BecomeAConsultant>,
+        },
+        {
+          path: "/volunteerOpportunities",
+          element: <VolunteerOpportunities></VolunteerOpportunities>,
+        },
+        {
+          path: "/latestNews",
+          element: <LatestNews></LatestNews>,
+        },
+        {
+          path: "/eventsAndWebinars",
+          element: <EventsAndWebinars></EventsAndWebinars>,
+        },
+        {
+          path: "/mediaCoverage",
+          element: <MediaCoverage></MediaCoverage>,
+        },
+        {
+          path: "/OfficeInfo",
+          element: <OfficeInfo></OfficeInfo>,
+        },
+        {
+          path: "/generalInquiries",
+          element: <GeneralInquiries></GeneralInquiries>,
+        },
+        {
+          path: "/workWithUs",
+          element: <WorkWithUs></WorkWithUs>,
+        },
+        {
+          path: "/requestAProposal",
+          element: <RequestAProposal></RequestAProposal>,
         },
       ],
     },
