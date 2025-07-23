@@ -5,10 +5,10 @@ const PartnersAndAffiliations = () => {
   return (
     <div>
       <h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet obcaecati
-        ea, est, nihil sunt ipsa odit eligendi, molestiae voluptatem dolore
-        impedit delectus consectetur sint cumque quasi labore voluptate ullam
-        excepturi?
+        <p>
+          Logos and descriptions of organizations and institutions SERCOL has
+          partnered with, both nationally and internationally.
+        </p>
       </h1>
     </div>
   );

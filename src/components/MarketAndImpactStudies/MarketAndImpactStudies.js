@@ -5,10 +5,11 @@ const MarketAndImpactStudies = () => {
   return (
     <div>
       <h1>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex esse atque
-        dolores distinctio cum laudantium repudiandae non deleniti, quisquam
-        deserunt corrupti soluta et nesciunt qui ad, pariatur quasi architecto
-        nam!
+        Specialized studies to support entrepreneurship, trade, program
+        effectiveness, and investment decisions. Lorem ipsum, dolor sit amet
+        consectetur adipisicing elit. Ex esse atque dolores distinctio cum
+        laudantium repudiandae non deleniti, quisquam deserunt corrupti soluta
+        et nesciunt qui ad, pariatur quasi architecto nam!
       </h1>
     </div>
   );

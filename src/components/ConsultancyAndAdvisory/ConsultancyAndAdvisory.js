@@ -5,10 +5,12 @@ const ConsultancyAndAdvisory = () => {
   return (
     <div>
       <h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa animi
-        accusantium quo quibusdam eum veritatis quae voluptatibus saepe, magnam,
-        explicabo adipisci! Rerum illum optio error? Vitae unde ducimus fuga
-        porro.
+        <p>Highlight consulting areas:</p>
+        <p>Project planning and evaluation</p>
+        <p>Governance and policy support</p>
+        <p>Institutional reform</p>
+        <p>Staffing, recruitment, and HR services</p>
+        <p>Evidence-based policy advice</p>
       </h1>
     </div>
   );

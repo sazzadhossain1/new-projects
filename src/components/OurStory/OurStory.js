@@ -4,9 +4,9 @@ const OurStory = () => {
   return (
     <div>
       <h1>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam
-        consequuntur in, sed quia exercitationem at asperiores unde iusto. A,
-        eveniet.
+        A brief narrative of SERCOL’s founding, motivation, and growth.
+        Highlight the organization's vision to bridge research and development
+        gaps in Bangladesh and globally.
       </h1>
     </div>
   );

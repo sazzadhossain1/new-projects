@@ -5,10 +5,10 @@ const TrainingAndCapacityBuilding = () => {
   return (
     <div>
       <h1>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-        porro quasi magni vel voluptatem? Dolore modi quos cumque dignissimos.
-        Minima aliquid distinctio minus aut necessitatibus quam quo aperiam et
-        eligendi!
+        <p>Overview of training goals and methodology. Emphasis on:</p>
+        <p>Practical workshops</p>
+        <p>Inclusive access (online/offline)</p>
+        <p>Beneficiaries: NGOs, researchers, youth, civil servants</p>
       </h1>
     </div>
   );

@@ -4,11 +4,9 @@ import "./MediaCoverage.css";
 const MediaCoverage = () => {
   return (
     <div>
-      <h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vel quod
-        hic temporibus dicta id molestias optio voluptate ea debitis inventore
-        quidem tempore itaque, ratione fugit omnis atque amet mollitia?
-      </h1>
+      <p>
+        News articles, TV coverage, and press releases featuring SERCOL’s work.
+      </p>
     </div>
   );
 };

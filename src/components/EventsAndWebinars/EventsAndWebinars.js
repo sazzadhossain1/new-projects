@@ -4,12 +4,10 @@ import "./EventsAndWebinars.css";
 const EventsAndWebinars = () => {
   return (
     <div>
-      <h1>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit nesciunt
-        pariatur magni eos aut accusamus deserunt et alias nobis aperiam,
-        consequatur sed rem enim recusandae distinctio dolore velit mollitia
-        porro.
-      </h1>
+      <p>
+        List of hosted and upcoming events such as webinars, conferences, and
+        training workshops.
+      </p>
     </div>
   );
 };

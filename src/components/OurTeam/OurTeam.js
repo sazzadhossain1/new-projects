@@ -5,10 +5,10 @@ const OurTeam = () => {
   return (
     <div>
       <h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis hic
-        labore molestias vel eos, id, provident dignissimos necessitatibus amet
-        nemo in illo aspernatur, veritatis corporis iusto beatae cupiditate
-        laborum officia.
+        <p>
+          Profiles of key personnel including founders, lead researchers,
+          consultants, and advisors with photos, bios, and expertise areas.
+        </p>
       </h1>
     </div>
   );

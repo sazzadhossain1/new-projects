@@ -4,10 +4,10 @@ const OngoingProjects = () => {
   return (
     <div>
       <h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-        repudiandae corporis unde magni expedita debitis dignissimos, omnis
-        perspiciatis inventore quisquam quis mollitia laboriosam, iusto vitae ea
-        cupiditate asperiores, eum placeat.
+        <p>
+          List of active projects with brief summaries, objectives, partners,
+          timelines, and regions of focus.
+        </p>
       </h1>
     </div>
   );

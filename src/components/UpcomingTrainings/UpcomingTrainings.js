@@ -4,12 +4,10 @@ import "./UpcomingTrainings.css";
 const UpcomingTrainings = () => {
   return (
     <div>
-      <h1>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati ab
-        optio vero, amet fugit alias dolorem recusandae explicabo cum quas
-        aperiam placeat dolore reprehenderit eaque corrupti doloremque repellat
-        sapiente nam?
-      </h1>
+      <p>
+        Calendar or list of upcoming training events, with registration links
+        and brochures.
+      </p>
     </div>
   );
 };

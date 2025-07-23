@@ -5,10 +5,10 @@ const ImpactHighlights = () => {
   return (
     <div>
       <h1>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut fuga
-        perspiciatis modi voluptatem eligendi corporis dignissimos sed soluta
-        quaerat? Minima, vel consectetur? Soluta nostrum quae aut commodi
-        maiores tempore possimus.
+        <p>
+          Infographics or case studies showing measurable social/economic
+          impacts from SERCOL’s work.
+        </p>
       </h1>
     </div>
   );

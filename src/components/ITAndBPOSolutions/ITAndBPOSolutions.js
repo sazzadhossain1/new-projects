@@ -5,10 +5,10 @@ const ITAndBPOSolutions = () => {
   return (
     <div>
       <h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
-        sapiente temporibus officia error et nulla aperiam non vero quod quis,
-        nisi ex praesentium doloribus fugit commodi reprehenderit neque id
-        alias.
+        <p>IT-enabled services (ITES)</p>
+        <p>Telecommunication and networking solutions</p>
+        <p>Business process outsourcing (BPO)</p>
+        <p>Payrolling and staffing</p>
       </h1>
     </div>
   );

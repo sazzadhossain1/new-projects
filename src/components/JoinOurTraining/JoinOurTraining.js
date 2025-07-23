@@ -4,12 +4,10 @@ import "./JoinOurTraining.css";
 const JoinOurTraining = () => {
   return (
     <div>
-      <h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit minima
-        facere dignissimos inventore libero. Numquam mollitia culpa minima
-        architecto sunt voluptatem repudiandae voluptatum exercitationem,
-        aspernatur voluptas laudantium. Quasi, veritatis. Nostrum.
-      </h1>
+      <p>
+        Opportunities to sign up for professional development or community
+        workshops.
+      </p>
     </div>
   );
 };

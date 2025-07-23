@@ -5,10 +5,10 @@ const Collaborations = () => {
   return (
     <div>
       <h1>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, nemo
-        itaque repellendus eius voluptatibus odio voluptatum quo, accusamus
-        velit at consectetur nisi quisquam, vitae mollitia corporis illum rerum
-        voluptatem cupiditate!
+        <p>
+          Descriptions of past and ongoing collaborations with government
+          agencies, NGOs, INGOs, and private sector entities
+        </p>
       </h1>
     </div>
   );

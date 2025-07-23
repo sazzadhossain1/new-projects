@@ -5,10 +5,10 @@ const CompletedProjects = () => {
   return (
     <div>
       <h1>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta
-        laboriosam dolor nostrum nulla accusantium reprehenderit fugit pariatur
-        quam nisi magnam officiis minima adipisci inventore incidunt ipsam velit
-        possimus, magni corrupti?
+        <p>
+          Archive of completed projects with outcomes, lessons learned, and
+          links to related reports.
+        </p>
       </h1>
     </div>
   );

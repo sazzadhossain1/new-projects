@@ -5,10 +5,13 @@ const ResearchServices = () => {
   return (
     <div>
       <h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-        voluptatum quaerat explicabo accusamus odit quod, laborum sunt totam?
-        Quidem eum consequatur vero sequi quos aspernatur natus nisi ad
-        dignissimos est!
+        <p>Details about SERCOL’s research offerings:</p>
+        <p>Surveys in remote areas (online/phone-based)</p>
+        <p>Baseline to endline studies</p>
+        <p>Impact evaluations</p>
+        <p>Market and feasibility studies</p>
+        <p>Custom research design and tools</p>
+        <p>Research proposal development</p>
       </h1>
     </div>
   );

@@ -4,11 +4,10 @@ import "./BlogsAndThought.css";
 const BlogsAndThought = () => {
   return (
     <div>
-      <h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam explicabo
-        hic minus? Illum quisquam eligendi sunt, voluptatem nobis animi ea esse
-        ullam eos dolorum minima, amet nisi possimus architecto laboriosam.
-      </h1>
+      <p>
+        Opinion articles, field stories, and reflections from SERCOL experts and
+        guest writers.
+      </p>
     </div>
   );
 };
